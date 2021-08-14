@@ -1,0 +1,390 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 1340;
+  margin: 0 auto;
+}
+body{
+  font-family: 'Rubik', sans-serif;
+}
+.head-5{
+  display: flex;
+  justify-content: space-between;
+
+}
+.head{
+  display: flex;
+}
+.head-22{
+  margin-left: 20px;
+  margin-right: 20px;
+text-decoration: none;
+font-size: 16px;
+line-height: 19px;
+color: #7A7A7A;
+align-items: center;}
+
+.head-33{
+  font-size: 16px;
+  line-height: 19px;
+  color: #285193;
+}
+.head-34{
+margin-left: 500px;
+}
+.head-35{
+  margin-left: 40px;
+  margin-right: 10px;
+}
+.head-36{
+  margin-right: 100px;
+}
+.head-37{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+padding: 15px 10px;
+text-decoration: none;
+}
+.nav-item{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.nav-item li 
+{
+  list-style: none;
+  text-decoration: none;
+}
+.nav-item a{
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+.banner{
+  margin-left: 119px;
+  margin-bottom: 22px;
+  margin-top: 50px;
+}
+.carona{
+display: flex;
+height: 70px;
+justify-content: space-around;
+background: #F6F6F9;
+border-radius: 10px;
+
+}
+.covid{
+  display: flex;
+  align-items: center;
+}
+.covid-logo{
+  margin-right:20px ;
+}
+.covid-text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+
+.infected{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.infected-logo{
+  display: flex;
+}
+.infected-text{
+  font-size: 18px;
+  line-height: 21px;
+  color: #DB0000;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+.infected-number{
+  font-size: 25px;
+  color: #000000;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.infected-t-n{
+  margin-left: 20px;
+}
+
+.recovered{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.recovered-logo{
+  display: flex;
+}
+.recovered-text{
+  font-size: 18px;
+  line-height: 21px;
+  color: #05B135;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+.recovered-number{
+  font-size: 25px;
+  color: #000000;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.recovered-t-n{
+  margin-left: 20px;
+}
+
+
+.dead{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.dead-logo{
+  display: flex;
+}
+.dead-text{
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 40px;
+  padding-bottom: 0px;
+}
+
+.dead-t-n{
+  margin-left: 20px;
+}
+.news{
+  display: flex;
+  margin-left: 50px;
+}
+.news-page{
+  margin: 25px;
+}
+.news-text{
+  text-decoration: none;
+}
+.news-text-2{
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+}
+.news-time{
+font-size: 14px;
+line-height: 17px;
+color: #6B6D97;
+}
+.bell{
+  justify-content: space-around;
+  display: flex;
+  background: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+}
+.bell-button{
+background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+border-radius: 5px;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-decoration: none;
+color: #FFFFFF;
+padding: 10px;
+padding-top: 24px;
+}
+.news-public-news{
+  margin-left: 40px;
+}
+.news-public-ul{
+  list-style: none;
+}
+.news-public-a{
+  display: flex;
+  text-decoration: none;
+}
+.news-public-photo{
+margin-right: 19px;
+}
+.news-public-title{
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+}
+.news-public-text{
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+}
+.news-public-time{
+font-size: 14px;
+line-height: 17px;
+color: #7688A4;
+}
+.news-public{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+  
+}
+.popular-news-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #202020;
+}
+.popular-news-text{
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+}
+.public-button{
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #FFFFFF;
+background: #295093;
+border-radius: 5px;
+padding: 15px 25px;
+text-decoration: none;
+margin-left: 325px;
+}
+.public-button-2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.application{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  background: #F6F6F9;
+  border-radius: 5px;
+}
+.store{
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.application-title{
+  font-size: 24px;
+  line-height: 28px;
+  color: #295093;
+}
+.application-text{
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+.footer-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-color{background: #295093;
+}
+.footer-image{
+  margin-top: 20px;
+  margin-left: 128px;
+}
+.site-info{
+  padding-left: 127px;
+}
+.footer-info{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.footer-info-3{
+  margin-right: 350px;
+}
+.footer-text{
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.footer-tg{
+  align-items: center;
+text-decoration: none;
+padding: 10px 25px;
+margin-right: 20px;
+margin-top: 10px;
+color: #295093;
+background: #FFFFFF;
+border-radius: 5px;
+}
+.footer-info-top{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-left: 200px;
+}
+
+/* article page */
+.president-title{
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+.president-text-bold{
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.president-text{
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.president-index{
+font-size: 18px;
+line-height: 21px;
+color: #28508E;
+text-decoration: none;
+}
+.president-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.related-news-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.related-news-text{
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+}
+.related-news{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+
