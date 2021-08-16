@@ -222,6 +222,8 @@ body{
     border-radius: 5px;
     width: 1200px;
     margin-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .bell-button{
     background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
@@ -243,9 +245,11 @@ body{
   .news-public-a{
     display: flex;
     text-decoration: none;
+    align-items: center;
   }
   .news-public-photo{
     margin-right: 19px;
+    margin-top: 30px;  
   }
   .news-public-title{
     font-weight: 500;
@@ -263,29 +267,32 @@ body{
     line-height: 17px;
     color: #7688A4;
   }
+
   .news-public{
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
     
   }
+
   .news-public-2{
     margin-left: 20px;
   }
+
+
   .popular-news{
     margin-top: 20px;
     background: #F6F6F9;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
-    margin-right: 50px;
   }
+
   .popular-news-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #202020;
-
 
   }
   .popular-news-text{
@@ -334,7 +341,6 @@ body{
   .footer-flex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
   .footer-color{background: #295093;
   }
@@ -343,7 +349,7 @@ body{
     margin-left: 128px;
   }
   .site-info{
-    padding-left: 127px;
+    padding-left: 70px;
   }
   .footer-info{
     font-weight: 500;
@@ -368,6 +374,9 @@ body{
     color: #295093;
     background: #FFFFFF;
     border-radius: 5px;
+  }
+  .footer-tg-logo{
+    margin-top: 5px;
   }
   .footer-info-top{
     font-weight: 500;
@@ -423,6 +432,6 @@ body{
     justify-content: space-between;
     margin-bottom: 34px;
   }
-  
+
   
   
